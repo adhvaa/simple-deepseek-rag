@@ -1,0 +1,6 @@
+langchain_community==0.1
+langchain_ollama==0.2
+langchain==0.98
+tiktoken==0.3
+sklearn
+numpy
