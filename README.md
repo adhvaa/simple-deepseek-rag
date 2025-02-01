@@ -17,11 +17,16 @@ This Python script utilizes AI models and document processing techniques to prov
 
 ## Usage
 1. Ensure you have Python installed on your machine.
-2. Run the script using:
+2. Ensure you have Ollama installed on your machine.
+3. Run Deepseek R1:7b (will download ~4gb first time):
+    ```bash
+    ollama run deepseek-r1:7b
+    ```
+4. Run the script using:
     ```bash
     python main.py
     ```
-3. Follow the prompts or input queries as directed in the script.
+5. Follow the prompts or input queries as directed in the script.
 
 ## Dependencies
 - langchain_community
